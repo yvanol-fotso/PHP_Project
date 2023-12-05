@@ -1,0 +1,421 @@
+html{
+	background: #eee;
+
+}
+
+/*style du block listing-pub*/
+
+.listing-pub{
+	 background: white;
+	 display: block;
+	 padding: 4%;
+	 width: 50%;
+	 height: 90%;
+	 box-shadow: 0 4px 13px -3px rgba(0, 0, 0, 0.2);
+	 margin-top: 10%;
+	 margin-left: 25%;
+	 margin-bottom:4%;
+	 /* border-bottom: #aea2cc 1px solid; */
+	
+}
+
+.listing-article{
+    border-bottom: #aea2cc 1px solid;
+}
+
+.person-name,.person-titre,.person-lien,.person-post .person-content-post{
+	color: #5f6468;
+	margin-left:5%;
+	margin-top: 2%;
+	margin-bottom: 4%;
+	font-size: 20px;
+}
+
+.listing-pub .person-post .pub-person-content{
+	margin-left: 5%;
+}
+
+.listing-pub .header-person{
+	margin-top:5%;
+}
+
+.listing-pub .person-post{
+	margin-bottom: 5%;
+}
+
+.pub-person-content{
+	display: block;
+	border-radius: 2%;
+	width: 80%;
+
+}
+
+
+.listing-pub .person-post .read-post{
+	margin-top: 8%;
+	margin-left: 40%;
+	border: none;
+
+}
+
+.listing-pub .person-post .read-more-post{
+	text-decoration: none;
+	/*je change le change le style*/
+	padding: 8px 10px;
+	background: #333;
+	border: #1d1d1d 1px solid;
+	color: #f0f0f0;
+	font-size: 12px;
+	width: 80px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+/* Add Post Section */
+
+.add-pub-container {
+	background: white;
+	display: block;
+	 padding: 4%;
+	 width: 50%;
+	 height: 90%;
+	 box-shadow: 0 4px 13px -3px rgba(0, 0, 0, 0.2);
+	 margin-top: 0%;
+	 margin-left: 25%;
+	 margin-bottom: 5%;
+}
+
+.add-pub-container h1{
+	margin-left: 35%;
+	color: #5f6468;
+	margin-bottom:5%;
+    /*border-bottom: 1px solid #bbafaf; */
+}
+
+.add-pub-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.add-pub-container .mail,.lien,.titre,.article{
+	padding: 2%;
+	margin: 3%;
+}
+
+.add-pub-container form button#submitPub {
+
+   margin: 3%;
+  /*JE CHANGE LE STYLE*/
+    padding: 10px 20px;
+	background: #333;
+	border: #1d1d1d 1px solid;
+	color: #f0f0f0;
+	font-size: 0.9em;
+	width: 100px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+
+/*style the paginator block*/
+  #pageElement{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+   } 
+/*style the paginator block*/
+
+@media only screen and (max-width: 980px) {
+    /*listing-pub*/
+	.listing-pub{
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 20%;
+	    margin-bottom: 10%;
+	  }
+    
+
+	
+
+	/* Add Post Section */	
+
+	.add-pub-container {
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 20%;
+	    margin-bottom: 10%;
+	  }
+	   .add-pub-container h1{
+	  margin-left: 5%;
+	
+    }
+
+    /*responsive de l'entete et autre*/
+.listing-pub .person-post .read-post{
+	margin-top: 10%;
+	margin-left: 40%;
+	border: none;
+}
+
+.listing-pub .person-post .pub-person-content{
+	margin-left: 5%;
+	font-size: 18px;
+}
+
+.listing-pub .header-person p{
+	margin-top:5%;
+	font-size: 18px;
+
+}
+
+.listing-pub .person-lien{
+	margin-top:5%;
+	font-size: 18px;
+
+}
+
+/*fin*/
+    
+}
+    
+@media only screen and (max-width: 568px) {
+	/*listing-pub*/
+	.listing-pub{
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 20%;
+	    margin-bottom: 10%;
+
+
+	}
+	/* Add Post Section */	
+
+	.add-pub-container {
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 20%;
+	    margin-bottom: 10%;
+
+	  }
+	 .add-pub-container h1{
+	  margin-left: 5%;
+	
+     }
+
+     /*responsive de l'entete et autre*/
+.listing-pub .person-post .read-post{
+	margin-top: 20%;
+	margin-left: 25%;
+	border: none;
+}
+
+.listing-pub .person-post .pub-person-content{
+	margin-left: 5%;
+	font-size: 14px;
+}
+
+.listing-pub .header-person p{
+	margin-top:5%;
+	font-size: 14px;
+
+}
+
+.listing-pub .person-lien{
+	margin-top:5%;
+	font-size: 14px;
+
+}
+
+/*fin*/
+    
+}
+    
+@media only screen and (max-width: 480px) {
+	/*listing-pub*/
+	.listing-pub{
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 40%;
+	    margin-bottom: 20%;
+
+
+	}
+	/* Add Post Section */	
+
+	.add-pub-container {
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 40%;
+	    margin-bottom: 20%;
+
+	  }
+     .add-pub-container h1{
+	  margin-left: 5%;
+	
+    }
+
+    /*responsive de l'entete et autre*/
+.listing-pub .person-post .read-post{
+	margin-top: 20%;
+	margin-left: 25%;
+	border: none;
+}
+
+.listing-pub .person-post .pub-person-content{
+	margin-left: 5%;
+	font-size: 14px;
+}
+
+.listing-pub .header-person p{
+	margin-top:5%;
+	font-size: 14px;
+
+}
+
+.listing-pub .person-lien{
+	margin-top:5%;
+	font-size: 14px;
+
+}
+
+/*fin*/
+}
+    
+@media only screen and (max-width: 360px) {
+	/*listing-pub*/
+	.listing-pub{
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 40%;
+	    margin-bottom: 20%;
+
+	}
+	/* Add Post Section */	
+
+	.add-pub-container {
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 40%;
+	    margin-bottom: 20%;
+
+	  }
+
+	  /*responsive de l'entete et autre*/
+.listing-pub .person-post .read-post{
+	margin-top: 20%;
+	margin-left: 25%;
+	border: none;
+}
+
+.listing-pub .person-post .pub-person-content{
+	margin-left: 5%;
+	font-size: 14px;
+}
+
+.listing-pub .header-person p{
+	margin-top:5%;
+	font-size: 14px;
+
+}
+
+.listing-pub .person-lien{
+	margin-top:5%;
+	font-size: 14px;
+
+}
+
+/*fin*/
+    
+   
+}
+    
+@media only screen and (max-width: 320px) {
+	/*listing-pub*/
+	.listing-pub{
+		box-shadow: unset;
+		padding: 16px;
+		width: 95%;
+		margin: 2%;
+		margin-left: 3%;
+		margin-top: 40%;
+	    margin-bottom: 20%;
+
+	}
+	/* Add Post Section */	
+
+	.add-pub-container {
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 40%;
+	    margin-bottom: 20%;
+
+	  }
+	 .add-pub-container h1{
+	  margin-left: 5%;
+	
+    }
+
+
+/*responsive de l'entete et autre*/
+.listing-pub .person-post .read-post{
+	margin-top: 20%;
+	margin-left: 25%;
+	border: none;
+}
+
+.listing-pub .person-post .pub-person-content{
+	margin-left: 5%;
+	font-size: 14px;
+}
+
+.listing-pub .header-person p{
+	margin-top:5%;
+	font-size: 14px;
+
+}
+
+.listing-pub .person-lien{
+	margin-top:5%;
+	font-size: 14px;
+
+}
+
+/*fin*/
+
+.pub-person-content{
+	display: block;
+	border-radius: 2%;
+	width: 80%;
+
+}
+
+}
+    

@@ -1,0 +1,302 @@
+/*style the paginator block*/
+#pageElement{
+ text-align: center;
+ margin-bottom: 5%;
+} 
+/*style the paginator block*/
+
+
+/*style event globale =page evenement + evenement sur index*/
+#even_container {
+    width: 90%;
+	margin: 10% 10% 5% 5%;
+	padding: 1% 0 1% 0;
+	box-shadow: 1px 1px 5px 5px gray;
+	border-radius: 20px;
+}
+
+#even_container h1{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 2%;
+	color: rgb(54, 53, 53);
+}
+
+#even_container p{
+    margin: 10px;
+    font-size: 13px;
+}
+
+.even_row .even_col img{
+   height:200px;
+   width: 98%;
+   border-radius: 20px;
+   margin-top: 1%;
+}
+
+.even_col{
+	border-radius: 20px;
+	background-color: rgba(2, 4, 6, 0.74);
+	margin: 2%;
+	color: white;
+	font-size: 22px;
+}
+.even_row{
+	width: 100%;
+	padding: 5px 2% 5px 2%;
+	margin-left: 1.5%;
+}
+.even_row::before, .even_row::after{
+	content: "";
+	display: block;
+	/* margin-top: 5px; */
+}
+.even_row::after{
+	clear: both;
+}
+.even_col{
+	display: block;
+	float: left;
+	padding:5px 5px 0.5% 0.5% ;
+    margin: 2px 3px 0.8% 0.8% ;
+}
+.even_col{
+	border-radius: 20px;
+	width: 23%;
+	height: 25%;
+	font-size: 16px;
+}
+
+/*ajout du stylisage de block even pass sur index*/
+
+#even_container_pass {
+  width: 90%;
+  /*height: 450px;*/
+  margin: 5%;
+  padding-bottom: 2%;
+  padding: 3% 0 0 0;
+  box-shadow: 0 4px 13px 3px rgba(39, 37, 37, 0.2);
+ }
+
+ #even_container_pass h2{
+  font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 36px;
+	margin-left: 4%;
+	position: relative;
+
+ }
+
+ #even_container_pass h2::after{
+  content: "";
+	position: absolute;
+	height: 3px;
+	width: 48px;
+	background: #ffe259;
+	bottom: -8px;
+	left: 0;
+
+ }
+
+ #even_container_pass p{
+  font-size: 14px;
+  margin: 12px;
+ }
+
+
+ /* block evenement come */
+#even_container_come {
+  width: 90%;
+  /*height: 450px;*/
+  margin: 5%;
+  padding: 3% 0 0 0;
+  box-shadow: 0 4px 13px 3px rgba(39, 37, 37, 0.2);
+
+ }
+ 
+ #even_container_come h2{
+  font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 36px;
+	margin-left: 4%;
+	position: relative;
+
+ }
+
+ #even_container_come h2::after{
+  content: "";
+	position: absolute;
+	height: 3px;
+	width: 48px;
+	background: #ffe259;
+	bottom: -8px;
+	left: 0;
+
+ } 
+
+ #even_container_come p{
+  font-size: 14px;
+  margin: 12px;
+ }
+/*fin*/
+
+
+@media(min-width:800px) and (max-width:1000px){
+    
+    /*page evenement index */
+	#even_container_pass p{	
+		margin: 10px;
+		font-size: 13px;	
+	} 
+	#even_container_come p{
+		margin: 10px;
+		font-size: 13px;
+	}
+
+	/*fin pour la page index*/
+
+	#even_container {
+		width: 89%;
+		margin: 70px 35px 0px 10px;
+
+	}
+    #even_container h1{
+	    font-size: 24px;
+    }
+	#even_container p{
+       margin: 10px;
+		font-size: 13px;
+	}
+
+	.even_col + .even_col, .even_col + .even_col{
+		width: 98%;
+	}
+	.even_col:nth-of-type(1), .even_col + .even_col, .even_col + .even_col, .even_col:nth-last-of-type(2){
+		width: 48%;
+	}
+
+	#even_container h1{
+    margin-top: 20%;
+	font-size: 28px;
+	
+    }
+   .even_col p{
+	font-size: 13px;
+   }
+
+}
+
+@media (min-width:500px) and (max-width:799px){
+
+	
+    /*page evenement index */
+	#even_container_pass p{	
+		margin: 10px;
+		font-size: 13px;	
+	} 
+	#even_container_come p{
+		margin: 10px;
+		font-size: 13px;
+	}
+
+	/*fin pour la page index*/
+
+
+	#even_container {
+		width: 89%;
+		margin: 80px 35px 0px 10px;
+
+	}
+	#even_container h1{
+	    font-size: 22px;
+    }
+	#even_container p{
+       margin: 10px;
+	   font-size: 13px;
+	}
+	.even_col{
+		width: 98%;
+		font-size: 20px;
+	}
+	.even_col:nth-of-type(1),.even_col,.even_col:nth-last-of-type(2){
+		width: 48%;
+	}
+
+   .even_col{
+	font-size: 12px;
+   }
+
+	
+}
+
+@media(max-width:499px){
+	
+    /*page evenement index */
+	#even_container_pass p{	
+		margin: 10px;
+		font-size: 13px;	
+	} 
+	/*fin pour la page index*/
+
+    /*cette boite qui suit est unique pour lq pqge evenement mail la class [.even_col : c'est pour tout les even=page event + event index]*/
+	#even_container {
+		width: 95%;
+		margin: 90px 35px 0px 8px;
+	}
+	#even_container_come p{
+		margin: 10px;
+		font-size: 13px;
+	}
+	#even_container h1{
+	    font-size: 20px;
+    }
+	#even_container p{
+       margin: 10px;
+		font-size: 13px;
+	}
+	.even_col{
+		width: 95%;
+		margin: 1%;
+		height: 15%;
+		font-size: 12px;
+	}
+
+}
+
+
+@media(max-width:320px){
+	
+    /*page evenement index */
+	#even_container_pass p{	
+		margin: 10px;
+		font-size: 13px;	
+	} 
+	#even_container_come p{
+		margin: 10px;
+		font-size: 13px;
+	}
+
+	/*fin pour la page index*/
+
+    /*cette boite qui suit est unique pour lq pqge evenement mail la class [.even_col : c'est pour tout les even=page event + event index]*/
+	#even_container {
+		width: 95%;
+		margin: 100px 35px 0px 8px;
+		margin-bottom: 10%;
+	}
+	#even_container h1{
+	    font-size: 18px;
+    }
+	#even_container p{
+       margin: 10px;
+		font-size: 13px;
+	}
+	.even_col{
+		width: 95%;
+		margin: 1%;
+		height: 15%;
+		font-size: 12px;
+	}
+
+	
+}

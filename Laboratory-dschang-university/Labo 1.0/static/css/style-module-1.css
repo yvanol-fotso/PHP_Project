@@ -1,0 +1,141 @@
+.module-1{
+  width: 90%;
+	margin: 5%;
+	padding: 2% 4% 2% 6%;
+	border-bottom: 1px solid rgb(66, 63, 63);
+	border-top: 1px solid rgb(66, 63, 63);
+	box-shadow: 0 4px 13px 3px rgba(39, 37, 37, 0.2);
+	margin-bottom: 5%;
+  display: flex;
+}
+
+.module-1  .titre {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+    position: relative;
+    margin-left: 8%;
+  }
+  
+  .module-1 .titre::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    background: #ffe259;
+    bottom: -8px;
+    left: 0;
+  }
+
+  .module-1 .mot-chef{
+      margin-top: 5%;
+      margin-bottom: 5%;
+      float: left;
+      width: 50%;
+      border-right: 1px solid #bbafaf;
+  }
+  .module-1 .domaine-rech{
+      margin-top: 5%;
+      margin-bottom: 5%;
+      /* margin-left: 50%; */
+      float: right;
+
+    }
+
+
+  .module-1 .mot-chef .titre{
+      margin-left: -2%; /*ou bien je use un margin right*/
+  }
+
+  .module-1 .domaine-rech .titre{
+      margin-left: 25%;
+      /*pour que le titre prene toute l'espace au lieu de s'empiler*/
+      width: 100%; 
+
+  }
+
+  .domaine-rech .items{
+      display: block;
+      margin-left: 30%;
+      color: #3d3939;
+      margin-bottom: 5%;
+  }
+
+  .mot-chef .contenu{
+    width: 100%;
+    margin-left: -2%;
+    background-color: #067db4;
+    color: rgba(245, 245, 245, 0.904);
+    border: 1px solid #bbafaf ;
+    border-radius: 4% 4% 0 0;
+    padding: 5%;
+    font-size: 20px;
+  }
+
+  .mot-chef .profil{
+      width: 100%;
+      margin-left: -2%;
+      background-color: #067db4;
+      /* margin: auto; */
+      border-radius: 0 0 6% 6%;
+  }
+
+  .profil img{
+      border-radius: 50%;
+      padding: 2%;
+      height: 20%;
+      width: 20%;
+      /* margin-left: 30%; */
+  }
+
+  .profil .etoile img{
+    height: 20%;
+    width: 12%;
+  }
+
+
+  @media (max-width: 600px) {
+
+    .module-1 {
+      flex-direction: column;
+      width: 90%;
+
+    }
+   
+    .module-1 .mot-chef{
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid #bbafaf;
+      padding: 0%;
+     /* margin: auto; */
+
+    }
+
+    .module-1 .domaine-rech{
+      width: 100%;
+      margin-right: 5%;
+    }
+
+   .module-1 .domaine-rech .titre{
+      margin-left: 2%;
+      /*pour que le titre prene toute l'espace au lieu de s'empiler*/
+      width: 100%; 
+
+   }
+
+  .mot-chef  .contenu{
+     width: 100%;
+   }
+
+
+   .domaine-rech  .items{
+      display: block;
+      margin-left: 5%;
+      color:#3d3939;
+      margin-bottom: 5%;
+   }
+
+
+
+}
+

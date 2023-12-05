@@ -1,0 +1,190 @@
+ .profil_edition{
+    width: 60%;
+    height: 450px;
+    /*background-color: rgb(211, 211, 192);*/  
+    background-color: #ffffff;
+    margin:10% 5% 5% 20%;
+    
+}
+
+#form-Edition-title {
+	font-size:1.6em;
+}
+#frmEdition {
+	padding:20px 30px;
+}
+.form-Edition-row{
+	padding-bottom:20px;
+    margin-left: 25%;
+}
+
+.form-Edition-row input{
+	width: 60%;
+    height: 30px;
+}
+
+.form-Edition-label {
+    font-size: 18px;
+
+}
+#btn-Edition-send {
+	background: #258bdc;
+	color: #FFF;
+	padding: 10px 40px;
+	border: 0px;
+}
+
+#save-modif{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 980px) {
+    .profil_edition{
+        width: 81%;
+        height: 450px;
+        background-color: #ffffff;
+        margin:15% 0% 10% 8%;
+        
+    }
+    #form-Edition-title {
+        font-size:1.2em;
+        border-bottom: 1px solid burlywood;
+        margin-bottom: 4%;
+    }
+    .form-Edition-row{
+        padding-bottom:20px;
+        margin-left: 8%;
+    }
+    .form-Edition-row input[type="text"]{
+        width: 60%;
+        height: 30px;
+    }
+    .form-Edition-label{
+        font-size: 16px;
+    }
+   
+    
+}
+    
+@media only screen and (max-width: 568px) {
+    .profil_edition{
+        width: 81%;
+        height: 450px;
+        background-color: #ffffff;
+        margin:15% 0% 10% 8%;
+        
+    }
+    #form-Edition-title {
+        font-size:1.2em;
+        border-bottom: 1px solid burlywood;
+        margin-bottom: 4%;
+    }
+    .form-Edition-row{
+        padding-bottom:20px;
+        margin-left: 0%;
+    }
+    .form-Edition-row input[type="text"]{
+        width: 90%;
+        height: 30px;
+    }
+    .form-Edition-label{
+        font-size: 15px;
+    }
+    
+}
+    
+@media only screen and (max-width: 480px) {
+    .profil_edition{
+        width: 81%;
+        height: 450px;
+        background-color: #ffffff;
+        margin:20% 0% 10% 8%;
+        
+    }
+    #form-Edition-title {
+        font-size:1em;
+        border-bottom: 1px solid burlywood;
+        margin-bottom: 4%;
+    }
+    .form-Edition-row{
+        padding-bottom:20px;
+        margin-left: 0%;
+    }
+    .form-Edition-row input[type="text"]{
+        width: 98%;
+        height: 30px;
+    }
+    .form-Edition-row input[type="email"]{
+        width: 98%;
+        height: 30px;
+    }
+    .form-Edition-label{
+        font-size: 15px;
+    }
+
+
+    
+}
+    
+@media only screen and (max-width: 360px) {
+    .profil_edition{
+        width: 81%;
+        height: 450px;
+        background-color: #ffffff;
+        margin:30% 0% 10% 8%;
+        
+    }
+    #form-Edition-title {
+        font-size:1em;
+        border-bottom: 1px solid burlywood;
+        margin-bottom: 4%;
+    }
+    .form-Edition-row{
+        padding-bottom:20px;
+        margin-left: 0%;
+    }
+    .form-Edition-row input{
+        width: 95%;
+        height: 25px;
+    }
+    .form-Edition-row input[type="text"]{
+        width: 98%;
+        height: 30px;
+    }
+    .form-Edition-label{
+        font-size: 14px;
+    }
+    
+   
+}
+    
+@media only screen and (max-width: 320px) {
+    .profil_edition{
+        width: 81%;
+        height: 450px;
+        background-color: #ffffff;
+        margin:30% 0% 10% 8%;
+        
+    }
+    #form-Edition-title {
+        font-size:1em;
+        border-bottom: 1px solid burlywood;
+        margin-bottom: 4%;
+    }
+    .form-Edition-row{
+        padding-bottom:20px;
+        margin-left: 0%;
+    }
+    .form-Edition-row input{
+        width: 98%;
+        height: 18px;
+    }
+    .form-Edition-label{
+        font-size: 14px;
+    }
+
+}
+    
+

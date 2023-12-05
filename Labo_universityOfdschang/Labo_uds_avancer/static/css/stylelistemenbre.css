@@ -1,0 +1,280 @@
+
+.menber-list-title .menber-list-title-echo{
+   margin-top:10%;
+   color: #5f6468;
+   text-align: center;
+}
+
+.all-menber{
+	background: white;
+	margin: 5%;
+  padding: 3%;
+
+}
+
+.all-menber .menber-one{
+	margin-top: 5px;
+	border-bottom: 1px solid green;
+	background: #eee;
+	display: flex;
+	align-items: center;
+}
+.other-info {
+	display: flex;
+	align-items: center;
+}
+
+
+
+.all-menber .menber-one .menber-name ,.menber-date ,.menber-status,.menber-chat{
+	display: inline-block;
+	margin-left:12%;
+	margin-top: 2.5%;
+	width: 200px;
+}
+
+.menber-message{
+	position: relative;
+	margin-left: 12%;
+}
+
+
+.menber-img{
+    height: 100px;
+    width: 100px;
+	  object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.menber-chat{
+	background: #333;
+	border-radius: 20px;
+	padding: 8%;
+	margin-left: 20%;
+	color: white;
+	width: 120px;
+}
+
+.menber-chat:hover{
+	transform:scale(1.01);
+	box-shadow: 2px 2px 1px 1px gray;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+	.menber-list-title .menber-list-title-echo{
+     margin-top:30%;
+     font-size: 20px
+   }
+	.all-menber .menber-one .other-info{
+		display: flex;
+		flex-direction: column;
+		margin-left: 65%; 
+		font-size: 18px;
+		padding: 2px;
+    }
+
+    .menber-chat{
+    	width: 120px;
+    	font-size: 16px;
+      margin-left: -22%;
+
+    }
+   
+   .menber-img{
+    height: 50px;
+    width: 50px;
+	  object-fit: cover;
+    border-radius: 50%;
+   }
+
+   .menber-message{
+	position: absolute;
+	margin-left: 20%;
+   }
+
+}
+
+
+@media only screen and (max-width: 799px) {
+
+	.menber-list-title .menber-list-title-echo{
+     margin-top:30%;
+     font-size: 20px
+   }
+	.all-menber .menber-one .other-info{
+		display: flex;
+		flex-direction: column;
+		margin-left: 65%; 
+		font-size: 14px;
+		padding: 2px;
+    }
+
+    .menber-chat{
+    	width: 100px;
+    	font-size: 14px;
+    	margin-left: -40%;
+	    margin-bottom: 2%;
+	   margin-top: 2%;
+    }
+   
+   .menber-img{
+    height: 50px;
+    width: 50px;
+	object-fit: cover;
+    border-radius: 50%;
+   }
+ 
+}
+@media only screen and (max-width: 692px) {
+	.menber-list-title .menber-list-title-echo{
+     margin-top:30%;
+     font-size: 20px
+   }
+	.all-menber .menber-one .other-info{
+		display: flex;
+		flex-direction: column;
+		margin-left: 55%; 
+		font-size: 14px;
+		padding: 2px;
+    }
+
+     .menber-chat{
+    	width: 100px;
+    	font-size: 14px;
+    	margin-left: -40%;
+	    margin-bottom: 2%;
+	   margin-top: 2%;
+    }
+   
+   .menber-img{
+    height: 50px;
+    width: 50px;
+	object-fit: cover;
+    border-radius: 50%;
+   }
+}
+
+
+@media only screen and (max-width: 589px) {
+	.menber-list-title .menber-list-title-echo{
+     margin-top:30%;
+     font-size: 18px
+   }
+	.all-menber .menber-one .other-info{
+		display: flex;
+		flex-direction: column;
+		margin-left: 40%; /*je decale un peu de l'image*/
+		font-size: 14px;
+		padding: 2px;
+    }
+
+    .menber-chat{
+    	width: 90px;
+    	font-size: 12px;
+    	margin-left: -42%;
+	    margin-bottom: 2%;
+	   margin-top: 2%;
+    }
+   
+   .menber-img{
+    height: 50px;
+    width: 50px;
+	object-fit: cover;
+    border-radius: 50%;
+   }
+}
+
+@media only screen and (max-width: 492px) {
+	.menber-list-title .menber-list-title-echo{
+     margin-top:30%;
+     font-size: 18px
+   }
+	.all-menber .menber-one .other-info{
+		display: flex;
+		flex-direction: column;
+		margin-left: 30%; 
+		font-size: 14px;
+		padding: 2px;
+    }
+
+    .menber-chat{
+    	width: 90px;
+    	font-size: 12px;
+    	margin-left: -42%;
+	    margin-bottom: 2%;
+	   margin-top: 2%;
+
+    }
+   
+   .menber-img{
+    height: 50px;
+    width: 50px;
+	object-fit: cover;
+    border-radius: 50%;
+   }
+}
+
+
+@media only screen and (max-width: 320px) {
+	.menber-list-title .menber-list-title-echo{
+     margin-top:30%;
+     font-size: 18px
+   }
+	.all-menber .menber-one .other-info{
+		display: flex;
+		flex-direction: column;
+		margin-left: 10%; /*je decale un peu de l'image*/
+		font-size: 14px;
+		padding: 2px;
+    } 
+
+    .menber-chat{
+    	width: 90px;
+    	font-size: 12px;
+    	margin-left: 12%;
+	    margin-bottom: 2%;
+	   margin-top: 2%;
+    }
+   
+   .menber-img{
+    height: 50px;
+    width: 50px;
+	object-fit: cover;
+    border-radius: 50%;
+   }
+}
+
+
+@media only screen and (max-width: 295px) {
+	.menber-list-title .menber-list-title-echo{
+     margin-top:30%;
+     font-size: 18px
+   }
+	.all-menber .menber-one .other-info{
+		display: flex;
+		flex-direction: column;
+		margin-left: 5%; /*je decale un peu de l'image*/
+		font-size: 14px;
+		padding: 2px;
+    }
+
+   
+    .menber-chat{
+    	width: 90px;
+    	font-size: 12px;
+	    margin-left: 12%;
+	    margin-bottom: 2%;
+	   margin-top: 2%;
+
+    }
+   
+   .menber-img{
+    height: 50px;
+    width: 50px;
+	object-fit: cover;
+    border-radius: 50%;
+   }
+}

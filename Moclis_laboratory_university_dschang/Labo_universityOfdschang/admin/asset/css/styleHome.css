@@ -1,0 +1,12 @@
+body {
+  background: #1c242d;
+}
+
+.sucess{
+	text-align: center;
+	color: white;
+}
+.sucess a {
+	text-decoration: none;
+	color: #58aef7;
+}

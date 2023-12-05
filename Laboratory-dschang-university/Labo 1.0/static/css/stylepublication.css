@@ -1,0 +1,322 @@
+html{
+	background: #eee;
+
+}
+
+/*ici le style  du block secction vision*/
+
+.vision{
+	background: white;
+	display: none;	
+	 width: 50%;
+	 height: 90%;
+	 box-shadow: 0 4px 13px -3px rgba(0, 0, 0, 0.2);
+	 margin-top: 5%;
+	 margin-left: 25%;
+	 margin-bottom:2%;
+	 padding: 4%;
+
+
+}
+
+.vision h1{
+	margin-left: 36%;
+	color: #5f6468;
+}
+
+.vision .pret-authors,.pret-titre,.pret-idee,.pret-resume,.pret-lien,.action{
+	margin: 5%;
+}
+
+/*.vision .pret-resume input{
+	width: 90%;
+	height: 200px;
+}
+*/
+.vision .action button{
+	padding: 1%;
+	margin-left: 1%;
+}
+.vision .action .annuler{
+	background: #f9243f;
+	color: white;
+	border: 1px solid #f9243f;
+}
+
+.vision .action .annuler{
+	background: #f9243f;
+	/* border: 1px solid #f9243f; */
+}
+
+.vision .action .publier-definitivement{
+	background:#5bc0de ;
+	border: 1px solid #5bc0de;
+}
+
+.vision .action button a{
+	text-decoration: none;
+	color: white;
+}
+
+
+ .pret-resume  textarea.In-pret-resume{
+	width: 90%;
+	height: 100px;
+ }
+
+/*ici le style du block de publication*/
+
+
+.publication-block{	
+	background: white;
+	display: none;
+	 width: 50%;
+	 height: 90%;
+	 box-shadow: 0 4px 13px -3px rgba(0, 0, 0, 0.2);
+	 margin-left: 25%;
+	 margin-bottom: 5%;
+
+}
+
+
+.publication-block h1{
+	margin-left: 36%;
+	color: #5f6468;
+}
+
+.publication-block .user{
+	margin-left: 5%;
+	/* padding: 5%; */
+}
+
+.publication-block .user input{
+   margin: 2%;
+   width: 80%;
+   height: 40px; /* le % ne prend pas sur le input de te type text uniquement le pixel*/
+
+}
+
+.publication-block  .resume{
+   margin-left: 5%;
+
+}
+
+.publication-block .resume textarea{
+   width: 81%;
+   margin: 2%;
+
+}
+
+.publication-block .enregistrer{
+	margin-left: 5%;
+	padding: 2%;
+}
+
+.publication-block .enregistrer a{
+	text-decoration: none;
+	color: white;
+}
+
+.publication-block .enregistrer button{
+	padding: 2%;
+	color: white;
+	font-size: 14px;
+    font-weight: 400;
+	background-color: #5bc0de;
+    border-color: #46b8da;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 980px) {
+	/*vision*/
+	.vision{
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 10%;
+	    margin-bottom: 0%;
+	}
+	/*publication-block*/
+	.publication-block{
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 5%;
+	    margin-bottom: 5%;
+	}
+
+   .vision h1{
+	margin-left: 35%;
+	margin-bottom: 3%;
+	color: #5f6468;
+   }
+
+
+   .publication-block h1{
+	margin-left: 35%;
+	margin-bottom: 2%;
+	color: #5f6468;
+   }
+    
+}
+    
+@media only screen and (max-width: 568px) {
+	/*vision*/
+	.vision{
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 10%;
+	    margin-bottom: 0%;
+	}
+
+	/*publication-block*/
+	.publication-block{
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 5%;
+	    margin-bottom: 20%;
+	}
+
+   .vision h1{
+	margin-left: 30%;
+	margin-bottom: 3%;
+	color: #5f6468;
+   }
+
+
+   .publication-block h1{
+	margin-left: 30%;
+	margin-bottom: 2%;
+	color: #5f6468;
+   }
+
+    
+}
+    
+@media only screen and (max-width: 480px) {
+	/*vision*/
+	.vision{
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 10%;
+	    margin-bottom: 0%;
+	}
+	/*publication-block*/
+	.publication-block{
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 10%;
+	    margin-bottom: 10%;
+	}
+
+   .vision h1{
+	margin-left: 25%;
+	margin-bottom: 3%;
+	color: #5f6468;
+   }
+
+
+   .publication-block h1{
+	margin-left: 25%;
+	margin-bottom: 2%;
+	color: #5f6468;
+   }
+
+    
+}
+    
+@media only screen and (max-width: 360px) {
+	/*vision*/
+	.vision{
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 10%;
+	    margin-bottom: 0%;
+	}
+	/*publication-block*/
+	.publication-block{
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 10%;
+	    margin-bottom: 10%;
+	}
+
+	.vision h1{
+	margin-left: 15%;
+	margin-bottom: 3%;
+	color: #5f6468;
+   }
+
+
+   .publication-block h1{
+	margin-left: 10%;
+	margin-bottom: 2%;
+	color: #5f6468;
+   }
+
+    
+   
+}
+    
+@media only screen and (max-width: 320px) {
+	/*vision*/
+	.vision{
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 10%;
+	    margin-bottom: 0%;
+	}
+
+	/*publication-block*/
+	.publication-block{
+		box-shadow: unset;
+		padding: 16px;
+		width: 90%;
+		margin: 2%;
+		margin-left: 5%;
+		margin-top: 10%;
+	    margin-bottom: 10%;
+	}
+
+   .vision h1{
+	margin-left: 15%;
+	margin-bottom: 3%;
+	color: #5f6468;
+   }
+
+
+   .publication-block h1{
+	margin-left: 10%;
+	margin-bottom: 2%;
+	color: #5f6468;
+   }
+
+
+}
+    

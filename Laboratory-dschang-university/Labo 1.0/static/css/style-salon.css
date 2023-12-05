@@ -1,0 +1,547 @@
+.salon-container{
+    width:500px;
+    height:700px;
+    background:white;
+    margin:10% auto;
+    font-size:0;
+    border-radius:5px;
+    overflow:hidden;
+}
+main{
+    width:500px;
+    height:700px;
+    display:inline-block;
+    font-size:15px;
+    vertical-align:top;
+}
+main header{
+    height:100px;
+    padding:30px 20px 30px 40px;
+    background-color:#607d8b;  
+}
+main header > *{
+    display:inline-block;
+    vertical-align:top;
+}
+main header img:first-child{
+    width:24px;
+    margin-top:8px;
+    /*j'arrondi l'image*/
+    object-fit: cover;
+    border-radius: 50%;
+}  
+main header img:last-child{
+    width:24px;
+    margin-top:8px;
+    /*j'arrondi l'image*/
+
+    object-fit: cover;
+    border-radius: 50%;
+}
+main header div{
+    margin-left:90px;
+    margin-right:90px;
+}
+main header h2{
+    font-size:25px;
+    margin-top:5px;
+    text-align:center;
+    color:#FFFFFF;  
+}
+main .inner_div{
+    padding-left:0;
+    margin:0;
+    list-style-type:none;
+    position:relative;
+    overflow:auto;
+    height:500px;
+    background-image:url(
+https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200911064223/bg.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: relative;
+    border-top:2px solid #fff;
+    border-bottom:2px solid #fff;
+     
+}
+main .triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 8px 8px 8px;
+    border-color: transparent transparent
+      #58b666 transparent;
+    margin-left:20px;
+    clear:both;
+}
+main .message{
+    padding:10px;
+    color:#000;
+    margin-left:15px;
+    background-color:#58b666;
+    line-height:20px;
+    max-width:90%;
+    display:inline-block;
+    text-align:left;
+    border-radius:5px;
+    clear:both;
+}
+main .triangle1{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 8px 8px 8px;
+    border-color: transparent
+      transparent #6fbced transparent;
+    margin-right:20px;
+    float:right;
+    clear:both;
+}
+main .message1{
+    padding:10px;
+    color:#000;
+    margin-right:15px;
+    background-color:#6fbced;
+    line-height:20px;
+    max-width:90%;
+    display:inline-block;
+    text-align:left;
+    border-radius:5px;
+    float:right;
+    clear:both;
+}
+ 
+main article{
+    height:150px;
+    padding:20px 30px 10px 20px;
+    background-color:#607d8b;
+}
+
+main article textarea{
+    resize:none;
+    border:100%;
+    display:block;
+    width:120%;
+    height:55px;
+    border-radius:3px;
+    padding:20px;
+    font-size:13px;
+    margin-bottom:13px;
+    margin-left:20px;
+}
+main article .button2{
+    resize:none;
+    border:100%;
+    display:block;
+    width:40%;
+    height:55px;
+    border-radius:3px;
+    padding:20px;
+    font-size:13px;
+    margin-bottom:13px;
+    margin-left:100px;
+    color:white;
+    text-align:center;
+    background-color:black;
+    border: 2px solid white; 
+}
+
+main article textarea::placeholder{
+    color:#ddd;
+}
+
+
+
+@media only screen and (max-width: 560px){
+  .salon-container{
+    width:400px;
+    height:700px;
+    background:white;
+    margin:25% auto;
+    font-size:0;
+    border-radius:5px;
+    overflow:hidden;
+  }
+
+  main header{
+    height:100px;
+    padding:30px 20px 30px 40px;
+    background-color:#607d8b;  
+  }
+
+  main article{
+    height:140px;
+    padding:20px 30px 10px 20px;
+    background-color:#607d8b;
+ }
+ main header div{
+    margin-left:60px;
+    margin-right:60px;
+ }
+ main header h2{
+    font-size:18px;
+    margin-top:5px;
+    text-align:center;
+    color:#FFFFFF;  
+ }
+
+ main article textarea{
+    resize:none;
+    border:100%;
+    display:block;
+    width:60%;
+    height:55px;
+    border-radius:3px;
+    padding:20px;
+    font-size:13px;
+    margin-bottom:13px;
+    margin-left:20px;
+}
+main article .button2{
+    resize:none;
+    border:100%;
+    display:block;
+    width:60px;
+    height:55px;
+    border-radius:3px;
+    padding:20px;
+    font-size:12px;
+    margin-bottom:13px;
+    margin-left:-145px;
+    color:white;
+    text-align:center;
+    background-color:black;
+    border: 2px solid white; 
+}
+
+main .message1{
+    padding:10px;
+    color:#000;
+    margin-right:130px;
+    background-color:#6fbced;
+    line-height:20px;
+    max-width:90%;
+    display:inline-block;
+    text-align:left;
+    border-radius:5px;
+    float:right;
+    clear:both;
+}
+
+
+}
+
+@media only screen and (max-width: 460px){
+    .salon-container{
+    width:380px;
+    height:700px;
+    background:white;
+    margin:25% auto;
+    font-size:0;
+    border-radius:5px;
+    overflow:hidden;
+  }
+
+  main header{
+    height:100px;
+    padding:30px 20px 30px 40px;
+    background-color:#607d8b;  
+  }
+
+  main article{
+    height:130px;
+    padding:20px 30px 10px 20px;
+    background-color:#607d8b;
+ }
+ main header div{
+    margin-left:60px;
+    margin-right:60px;
+ }
+ main header h2{
+    font-size:18px;
+    margin-top:5px;
+    text-align:center;
+    color:#FFFFFF;  
+ }
+
+ main article textarea{
+    resize:none;
+    border:100%;
+    display:block;
+    width:60%;
+    height:55px;
+    border-radius:3px;
+    padding:20px;
+    font-size:13px;
+    margin-bottom:13px;
+    margin-left:20px;
+}
+main article .button2{
+    resize:none;
+    border:100%;
+    display:block;
+    width:60px;
+    height:55px;
+    border-radius:3px;
+    padding:20px;
+    font-size:12px;
+    margin-bottom:13px;
+    margin-left:-145px;
+    color:white;
+    text-align:center;
+    background-color:black;
+    border: 2px solid white; 
+}
+
+main .message1{
+    padding:10px;
+    color:#000;
+    margin-right:130px;
+    background-color:#6fbced;
+    line-height:20px;
+    max-width:90%;
+    display:inline-block;
+    text-align:left;
+    border-radius:5px;
+    float:right;
+    clear:both;
+}
+
+
+    
+}
+
+@media only screen  and (max-width: 399px){
+ .salon-container{
+    width:300px;
+    height:700px;
+    background:white;
+    margin:25% auto;
+    font-size:0;
+    border-radius:5px;
+    overflow:hidden;
+  }
+  main header{
+    height:100px;
+    padding:30px 20px 30px 40px;
+    background-color:#607d8b;  
+  }
+
+  main article{
+    height:120px;
+    padding:20px 30px 10px 20px;
+    background-color:#607d8b;
+ }
+ main header div{
+    margin-left:32px;
+    margin-right:32px;
+ }
+ main header h2{
+    font-size:16px;
+    margin-top:5px;
+    text-align:center;
+    color:#FFFFFF;  
+ }
+
+ main article textarea{
+    resize:none;
+    border:100%;
+    display:block;
+    width:40%;
+    height:55px;
+    border-radius:3px;
+    padding:20px;
+    font-size:13px;
+    margin-bottom:13px;
+    margin-left:20px;
+}
+main article .button2{
+    resize:none;
+    border:100%;
+    display:block;
+    width:55px;
+    height:55px;
+    border-radius:3px;
+    padding:20px;
+    font-size:12px;
+    margin-bottom:13px;
+    margin-left:-235px;
+    color:white;
+    text-align:center;
+    background-color:black;
+    border: 2px solid white; 
+}
+
+main .message1{
+    padding:10px;
+    color:#000;
+    margin-right:210px;
+    background-color:#6fbced;
+    line-height:20px;
+    max-width:90%;
+    display:inline-block;
+    text-align:left;
+    border-radius:5px;
+    float:right;
+    clear:both;
+}
+
+
+    
+}
+@media only screen  and (max-width: 320px){
+ .salon-container{
+    width:280px;
+    height:700px;
+    background:white;
+    margin:25% auto;
+    font-size:0;
+    border-radius:5px;
+    overflow:hidden;
+  }
+  main header{
+    height:90px;
+    padding:30px 20px 30px 40px;
+    background-color:#607d8b;  
+  }
+
+  main article{
+    height:100px;
+    padding:20px 30px 10px 20px;
+    background-color:#607d8b;
+ }
+ main header div{
+    margin-left:25px;
+    margin-right:25px;
+ }
+ main header h2{
+    font-size:15px;
+    margin-top:5px;
+    text-align:center;
+    color:#FFFFFF;  
+ }
+
+ main article textarea{
+    resize:none;
+    border:100%;
+    display:block;
+    width:40%;
+    height:55px;
+    border-radius:3px;
+    padding:20px;
+    font-size:13px;
+    margin-bottom:13px;
+    margin-left:20px;
+}
+main article .button2{
+    resize:none;
+    border:100%;
+    display:block;
+    width:60px;
+    height:55px;
+    border-radius:3px;
+    padding:20px;
+    font-size:12px;
+    margin-bottom:13px;
+    margin-left:-245px;
+    color:white;
+    text-align:center;
+    background-color:black;
+    border: 2px solid white; 
+}
+
+main .message1{
+    padding:10px;
+    color:#000;
+    margin-right:240px;
+    background-color:#6fbced;
+    line-height:20px;
+    max-width:90%;
+    display:inline-block;
+    text-align:left;
+    border-radius:5px;
+    float:right;
+    clear:both;
+}
+    
+}
+@media only screen and (max-width: 293px){
+ .salon-container{
+    width:260px;
+    height:700px;
+    background:white;
+    margin:30% auto;
+    font-size:0;
+    border-radius:5px;
+    overflow:hidden;
+  }
+
+  main header{
+    height:80px;
+    padding:30px 20px 30px 40px;
+    background-color:#607d8b;  
+  }
+
+  main article{
+    height:90px;
+    padding:20px 30px 10px 20px;
+    background-color:#607d8b;
+ }
+ main header div{
+    margin-left:15px;
+    margin-right:15px;
+ }
+ main header h2{
+    font-size:15px;
+    margin-top:5px;
+    text-align:center;
+    color:#FFFFFF;  
+ }
+
+ main article textarea{
+    resize:none;
+    border:100%;
+    display:block;
+    width:34%;
+    height:55px;
+    border-radius:3px;
+    padding:20px;
+    font-size:13px;
+    margin-bottom:13px;
+    margin-left:20px;
+}
+main article .button2{
+    resize:none;
+    border:100%;
+    display:block;
+    width:60px;
+    height:55px;
+    border-radius:3px;
+    padding:20px;
+    font-size:12px;
+    margin-bottom:13px;
+    margin-left:-270px;
+    color:white;
+    text-align:center;
+    background-color:black;
+    border: 2px solid white; 
+}
+
+main .message1{
+    padding:10px;
+    color:#000;
+    margin-right:250px;
+    background-color:#6fbced;
+    line-height:20px;
+    max-width:90%;
+    display:inline-block;
+    text-align:left;
+    border-radius:5px;
+    float:right;
+    clear:both;
+}
+
+
+    
+}

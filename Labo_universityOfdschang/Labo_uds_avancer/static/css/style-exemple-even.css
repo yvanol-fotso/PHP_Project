@@ -1,0 +1,190 @@
+html{
+  color: #3d3939; /*je donne une couleur a mon text */
+}
+
+.mod-even-all{
+  width: 90%;
+	margin: 5%;
+	padding: 2% 4% 2% 6%;
+	/*border-bottom: 1px solid rgb(66, 63, 63);*/
+	border-top: 1px solid rgb(66, 63, 63);
+	box-shadow: 0 4px 10px 3px rgba(39, 37, 37, 0.2);
+	/*margin-bottom: 5%;*/
+  display: flex;
+}
+
+
+.mod-even-more-inform{
+   width: 90%;
+  margin: 5%;
+  padding: 2% 4% 2% 6%;
+  border-bottom: 1px solid rgb(66, 63, 63);
+  /*border-top: 1px solid rgb(66, 63, 63);*/
+  box-shadow: 0 4px 10px 3px rgba(39, 37, 37, 0.2);
+  margin-bottom: 5%;
+  display: flex;
+
+}
+
+.mod-even-infosupplementaire{
+  /*border: 1px solid black;*/
+  border-right: 1px solid #d7d0d0b0;
+
+  width: 60%;
+  display: inline-block;
+
+}
+
+.mod-even-title{
+  width: 90%;
+  margin: 5%;
+  padding: 2% 4% 2% 6%;
+  /*border-bottom: 1px solid rgb(66, 63, 63);*/
+  /*border-top: 1px solid rgb(66, 63, 63);*/
+  box-shadow: 0 4px 10px 3px rgba(39, 37, 37, 0.2);
+  /*margin-bottom: 5%;*/
+  background:url("../images/images-even/2.jpg");
+
+  height: 150px;
+  text-align: center;
+  display: flex;
+}
+
+.mod-even-title .even-due-date{
+    border: 5px solid #1491ba;
+    border-radius: 50px;
+    padding: 10px;
+    margin: auto;
+    color: white; /*couleurs du texte */
+}
+
+  .mod-even-all .mod-even-left{
+      margin-top: 5%;
+      margin-bottom: 5%;
+      float: left;
+      width: 60%;
+      border-right: 1px solid #bbafaf;
+      padding-right: 4px;
+  }
+  .mod-even-all .mod-even-right{
+      margin-top: 5%;
+      margin-bottom: 5%;
+      /* margin-left: 50%; */
+      float: right;
+      /*border:1px solid black;*/
+      width: 40%;
+
+    }
+
+
+   .first-block ,.titre-even,.description,.topics{
+      
+      margin-bottom: 10%;
+      
+  }
+
+
+  .mod-even-right .second-block{
+      display: block;
+      margin-left: 10%;
+      color: #3d3939;
+      margin-bottom: 5%;
+      font-size: 14px; /*je reduit un peu la taille dues items */
+  }
+
+  
+
+  
+  @media (max-width: 600px) {
+
+    .mod-even-all {
+      flex-direction: column;
+      width: 90%;
+
+    }
+   
+    .mod-even-all .mod-even-left{
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid #bbafaf;
+      padding: 0%;
+     /* margin: auto; */
+
+    }
+
+    .mod-even-all .mod-even-right{
+      width: 100%;
+      margin-right: 5%;
+    }
+
+  
+
+  .mod-even-left  .first-block{
+     width: 100%;
+
+   }
+
+
+   .mod-even-right  .second-block{
+      display: block;
+      margin-left: 5%;
+      color:#3d3939;
+      margin-bottom: 5%;
+      font-size: 15px;
+   }
+
+
+.titre-even ,.description ,.topics {
+      font-size: 15px;
+      color: :#3d3939;
+      
+  }
+
+
+
+   /*je stylise lq deuxieme boite*/
+
+
+.mod-even-more-inform{
+     flex-direction: column;
+      width: 90%;
+
+}
+
+
+.mod-even-infosupplementaire{
+   width: 100%;
+   border-right: none;
+   border-bottom: 1px solid #bbafaf;
+   padding: 0%;
+    /*margin: auto; */
+    font-size: 13px;
+}
+
+.mod-even-address{
+   width: 100%;
+  margin-top: 5%;
+  font-size: 13px;
+}
+
+.mod-even-address img{
+  width: 40px;
+  min-height: 40px;
+}
+
+
+.mod-even-title{
+   flex-direction: column;
+    width: 90%;
+
+    height: 200px;
+
+}
+
+.mod-even-title .even-title_ h1{
+  font-size: 16px;
+}
+
+
+}
+
